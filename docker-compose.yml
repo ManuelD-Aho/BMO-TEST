@@ -1,0 +1,9 @@
+
+services:
+  reunion-app:
+    build: .
+    ports:
+      - "5002:5002"
+    # Vous pouvez définir des variables d'environnement si nécessaire :
+    # environment:
+    #   - JAVA_OPTS=-Xms256m -Xmx512m
